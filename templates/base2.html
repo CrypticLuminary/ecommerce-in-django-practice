@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEJIWOO Fashion - Make Your Everyday Look Prettier</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Arial', 'sans-serif']
+                    },
+                    colors: {
+                        'mejiwoo-pink': '#FF69B4',
+                        'mejiwoo-gray': '#F5F5F5'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800">
+    
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <h1 class="text-2xl font-bold text-black">
+                    미지우 MEJIWOO
+                </h1>
+            </div>
+            <nav class="space-x-4">
+                <a href="#" class="hover:text-mejiwoo-pink">Home</a>
+                <a href="#" class="hover:text-mejiwoo-pink">Product</a>
+                <a href="#" class="hover:text-mejiwoo-pink">Categories</a>
+                <a href="#" class="hover:text-mejiwoo-pink">SALE</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-mejiwoo-gray py-16 text-center">
+        <h2 class="text-4xl font-bold mb-4">make your everyday look prettier</h2>
+        <p class="text-xl mb-8">with MEJIWOO Korean Made</p>
+        <a href="#" class="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800">SHOP NOW</a>
+    </section>
+
+    <!-- Best Seller Section -->
+    <section class="container mx-auto px-4 py-12">
+        <h3 class="text-3xl font-bold text-center mb-8">Our Best Seller</h3>
+        <div class="grid grid-cols-3 gap-6">
+            <div class="text-center">
+                <img src="/api/placeholder/300/400" alt="Euphoria Crop Blouse" class="w-full mb-4">
+                <h4 class="font-semibold">Euphoria Crop Blouse</h4>
+                <p class="text-gray-600">Rp. 125.000</p>
+            </div>
+            <div class="text-center">
+                <img src="/api/placeholder/300/400" alt="Venus Halter Dress" class="w-full mb-4">
+                <h4 class="font-semibold">Venus Halter Dress</h4>
+                <p class="text-gray-600">Rp. 180.000</p>
+            </div>
+            <div class="text-center">
+                <img src="/api/placeholder/300/400" alt="Snap Pure Blouse" class="w-full mb-4">
+                <h4 class="font-semibold">Snap Pure Blouse</h4>
+                <p class="text-gray-600">Rp. 129.000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offer -->
+    <section class="bg-black text-white text-center py-12">
+        <h3 class="text-3xl font-bold mb-4">Get 50% Off</h3>
+        <p class="mb-6">for all new product purchases</p>
+        <p class="mb-8">min. purchase Rp. 350.000</p>
+        <a href="#" class="bg-white text-black px-8 py-3 rounded-full hover:bg-gray-200">SHOP NOW</a>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="container mx-auto px-4 py-12">
+        <h3 class="text-3xl font-bold text-center mb-8">Our Products</h3>
+        <div class="flex justify-center space-x-6 mb-8">
+            <a href="#" class="hover:text-mejiwoo-pink">Top</a>
+            <a href="#" class="hover:text-mejiwoo-pink">Bottom</a>
+            <a href="#" class="hover:text-mejiwoo-pink">Dress</a>
+            <a href="#" class="hover:text-mejiwoo-pink">Set</a>
+            <a href="#" class="hover:text-mejiwoo-pink">Knit</a>
+            <a href="#" class="hover:text-mejiwoo-pink">Outer</a>
+        </div>
+        <div class="grid grid-cols-3 gap-6">
+            <div class="text-center">
+                <img src="/api/placeholder/300/400" alt="Eto V Neck Yellow" class="w-full mb-4">
+                <h4 class="font-semibold">Eto V Neck Yellow</h4>
+                <p class="text-gray-600">Rp. 129.000</p>
+            </div>
+            <div class="text-center">
+                <img src="/api/placeholder/300/400" alt="Macaroon Dry Half" class="w-full mb-4">
+                <h4 class="font-semibold">Macaroon Dry Half</h4>
+                <p class="text-gray-600">Rp. 139.000</p>
+            </div>
+            <div class="text-center">
+                <img src="/api/placeholder/300/400" alt="Wave Stripe Hally" class="w-full mb-4">
+                <h4 class="font-semibold">Wave Stripe Hally</h4>
+                <p class="text-gray-600">Rp. 130.000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-mejiwoo-gray py-12">
+        <h3 class="text-3xl font-bold text-center mb-8">What They Said</h3>
+        <div class="container mx-auto px-4 grid grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="mb-4 italic">"I like knitted materials. I bought this shirt because the design is very pretty and comfortable to wear casually. The material is also neat and good. I love shopping here and I'll be a frequent customer at this store."</p>
+                <p class="font-semibold">- Celine (Andcable Knit Top)</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="mb-4 italic">"I like this pants. Its fit and perfect for me. The material is so comfortable that it can be used anywhere. It is also suitable to be combined with all types of my clothes."</p>
+                <p class="font-semibold">- Lisa (Essence Long Denim)</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="mb-4 italic">"This shirt is very pretty and nice. The color is cute too. At first I bought it as a present for my friend but I also wanted it so we ended up going out wearing twin clothes haha."</p>
+                <p class="font-semibold">- Tiffany (Candy Stripe Boxy)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign Up -->
+    <section class="container mx-auto px-4 py-12 text-center">
+        <h3 class="text-3xl font-bold mb-8">Get more benefits by Sign Up & Join Mejiwoo Community!</h3>
+        <div class="max-w-md mx-auto">
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Full Name">
+                </div>
+                <div class="mb-4">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="Email Address">
+                </div>
+                <div class="mb-4">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="password" placeholder="Password">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-500 font-bold">
+                        <input type="checkbox" class="mr-2 leading-tight">
+                        <span class="text-sm">I agree to all the Terms and Privacy Policy</span>
+                    </label>
+                </div>
+                <div class="flex flex-col space-y-4">
+                    <button class="bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        SIGN UP
+                    </button>
+                    <div class="flex justify-between space-x-4">
+                        <button class="bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" type="button">
+                            SIGN UP WITH GOOGLE
+                        </button>
+                        <button class="bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" type="button">
+                            SIGN UP WITH FACEBOOK
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4 grid grid-cols-4 gap-8">
+            <div>
+                <h4 class="font-bold mb-4">MEJIWOO 미지우</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-mejiwoo-pink">About Us</a></li>
+                    <li><a href="#" class="hover:text-mejiwoo-pink">News</a></li>
+                    <li><a href="#" class="hover:text-mejiwoo-pink">Official Store</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Company</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-mejiwoo-pink">Careers</a></li>
+                    <li><a href="#" class="hover:text-mejiwoo-pink">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Get Help</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-mejiwoo-pink">Shipping</a></li>
+                    <li><a href="#" class="hover:text-mejiwoo-pink">Payment</a></li>
+                    <li><a href="#" class="hover:text-mejiwoo-pink">Returns</a></li>
+                    <li><a href="#" class="hover:text-mejiwoo-pink">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Follow Us</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-mejiwoo-pink">Instagram</a>
+                    <a href="#" class="hover:text-mejiwoo-pink">Facebook</a>
+                    <a href="#" class="hover:text-mejiwoo-pink">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-8">
+            <p>© 2023 MEJIWOO. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
